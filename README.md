@@ -2,6 +2,8 @@
 Project 1 - Iteration one
 A 2D Physics-Based Game made with Godot by Janardhen Jayavel.
 
+Github page is [P1---projectile-launch](https://bsu-cs315.github.io/P1---projectile-launch/)
+
 # Project Report
 ## Reflection
 Completing this iteration one gave me a satisfaction that I finally did it. But, it was really very hard for me to do each and every step. I had difficulties in getting a suitable png for my project. I had difficulties in using git actions and many more. So,I am planning to meet with my professor during office hours this week to get my doubts cleared. I am also scared that this is just the beginning of the semester and how am I gonna perform in upcoming projects. I learnt many things than the first Tutorial project especially using the physics kit and applying Physics motion in the Godot engine  and I strive to give my best in future projects. 
@@ -49,7 +51,7 @@ Completing this iteration one gave me a satisfaction that I finally did it. But,
  
  This assesment satisfies the requirement of a A grade. I am still unsure that whether I have misunderstood any of the requirements. I hope to get a A or A-
  
- # Third party assets
+# Third party assets
  
  Images I used are from "Physics Assets". Created in 2016 by kenney.nl, CC0 1.0 Universal. Source: https://www.kenney.nl/assets/physics-assets
  
