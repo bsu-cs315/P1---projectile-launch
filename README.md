@@ -43,8 +43,13 @@ Completing this iteration one gave me a satisfaction that I finally did it. But,
 
 - [x] A-1: The player can modify the strength of the projectile's firing.
 
-- [ ] A-2: There is a visual indicator showing the angle at which the projectile will fire.
+- [x] A-2: There is a visual indicator showing the angle at which the projectile will fire.
 
  - [x] A-3: The projectile's hitting the target is recognized and logged to the console or otherwise indicated.
  
+ This assesment satisfies the requirement of a A grade. I am still unsure that whether I have misunderstood any of the requirements. I hope to get a A or A-
+ 
+ # Third party assets
+ 
+ mages I used are from "Physics Assets". Created in 2016 by kenney.nl, CC0 1.0 Universal. Source: https://www.kenney.nl/assets/physics-assets
  
