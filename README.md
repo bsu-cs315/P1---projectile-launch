@@ -43,7 +43,7 @@ Completing this iteration one gave me a satisfaction that I finally did it. But,
 
 - [x] A-1: The player can modify the strength of the projectile's firing.
 
-- [] A-2: There is a visual indicator showing the angle at which the projectile will fire.
+- [ ] A-2: There is a visual indicator showing the angle at which the projectile will fire.
 
  - [x] A-3: The projectile's hitting the target is recognized and logged to the console or otherwise indicated.
  
