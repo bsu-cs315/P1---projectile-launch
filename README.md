@@ -51,5 +51,6 @@ Completing this iteration one gave me a satisfaction that I finally did it. But,
  
  # Third party assets
  
- mages I used are from "Physics Assets". Created in 2016 by kenney.nl, CC0 1.0 Universal. Source: https://www.kenney.nl/assets/physics-assets
+ Images I used are from "Physics Assets". Created in 2016 by kenney.nl, CC0 1.0 Universal. Source: https://www.kenney.nl/assets/physics-assets
+ 
  
