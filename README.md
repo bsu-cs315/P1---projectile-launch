@@ -1,6 +1,7 @@
 # P1-Launchie
  
  A 2D Physics-Based Game made with Godot by Janardhen Jayavel.
+ 
  Github Pages Link [(Play)]
 
 # Project Report
@@ -8,7 +9,7 @@
 ## Reflection
  ## Self-Evaluation
 
-[x] D-1: The repository link is submitted to Canvas before the project deadline.
+[ x ]  D-1: The repository link is submitted to Canvas before the project deadline.
  D-2: The repository contains a README.md file in its top-level directory.
  D-3: The project content is eligible for an ESRB Rating of M or less.
  C-1: Your repository is well-formed, with an appropriate .gitignore file and no unnecessary files tracked.
