@@ -42,16 +42,63 @@ margin_top = 452.0
 margin_right = 179.0
 margin_bottom = 486.0
 rect_rotation = -90.2277
+custom_colors/font_color = Color( 1, 0.262745, 0.262745, 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="Label" type="Label" parent="."]
-margin_left = 171.668
-margin_top = 42.7388
-margin_right = 826.668
-margin_bottom = 154.739
+margin_left = 245.948
+margin_top = 7.09361
+margin_right = 723.948
+margin_bottom = 60.0936
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
 script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label2" type="Label" parent="."]
+margin_left = 60.4484
+margin_top = 188.289
+margin_right = 100.448
+margin_bottom = 213.289
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_shadow = Color( 0.0705882, 0.0666667, 0.0666667, 1 )
+text = "Score:"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ScoreLabel" type="Label" parent="."]
+margin_left = 107.527
+margin_top = 189.127
+margin_right = 173.527
+margin_bottom = 209.127
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "0"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="InventoryLabel" type="Label" parent="."]
+margin_left = 59.8224
+margin_top = 212.466
+margin_right = 222.822
+margin_bottom = 232.466
+custom_colors/font_color = Color( 0.0313726, 0.0313726, 0.0313726, 1 )
+text = "Total Projectiles : 3"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ScoreInventory" type="Label" parent="."]
+anchor_bottom = 0.027
+margin_left = 22.8441
+margin_top = 213.28
+margin_right = 62.8441
+margin_bottom = 213.456
 __meta__ = {
 "_edit_use_anchors_": false
 }

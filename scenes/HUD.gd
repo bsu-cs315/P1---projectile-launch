@@ -8,12 +8,20 @@ func set_strength(value):
 func show_game_over():
 	$StartButton.show()
 	
-func show_game_win():
-	$WinLabel.show()
+func hide_tutorial():
+	$RightArrow.hide()
+	$LeftArrow.hide()
+	$SpaceBar.hide()
+	
+func set_projectile_remaining(count):
+	$InventoryLabel.text = str(count) + " Projectiles Remaining"
+	
+func increase_score():
+	$ScoreLabel.text = str(int($ScoreLabel.text) + 50)
+	$ScoreInventory.text = str(int($ScoreInventory.text)
+	+1)
 
 func _on_Button_pressed():
-	$StartButton.hide()
-	$WinLabel.hide()
 	emit_signal("start_game")
 
 
