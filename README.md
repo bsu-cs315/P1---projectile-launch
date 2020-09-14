@@ -29,5 +29,5 @@ According to the requirements above, It satisfies B grade.
 
  ## Third party assets
  
- Images are from "Physics Assets Pack". Created by kenney.nl, [CC0 1.0 Universal]'https://creativecommons.org/publicdomain/zero/1.0/'. Source: https://www.kenney.nl/assets/physics-assets
+ Images are from "Physics Assets Pack". Created by kenney.nl, CC0 1.0 Universal'https://creativecommons.org/publicdomain/zero/1.0/'. Source: https://www.kenney.nl/assets/physics-assets
 
