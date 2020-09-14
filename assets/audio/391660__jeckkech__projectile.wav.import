@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/391660__jeckkech__projectile.wav-83c1ab348e2c16526e08ecddc8950a7a.sample"
+
+[deps]
+
+source_file="res://assets/audio/391660__jeckkech__projectile.wav"
+dest_files=[ "res://.import/391660__jeckkech__projectile.wav-83c1ab348e2c16526e08ecddc8950a7a.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
