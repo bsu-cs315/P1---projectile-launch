@@ -6,14 +6,17 @@
  
  ## How to Play
  Use left and right arrows to change the angle.
+ 
  Press spacebar to launch the projectile.
+ 
  Hit the aliens to get score.
+ 
  Press start at any time to restart the game. 
 
 # Project Report
 
 ## Reflection
- This project was nice to use the sounds and grpahics in 2D. The video that published the second half solution to the iteration 1 really helped a lot. It solved my doubts. I couldn't fulfill all criteria's for an A grade. I feel sorry for that but then as my professor Dr.G said, its all about learning. I will learn something in the next video. I am looking forward for my next iteration in the upcoming week.
+ This project was nice to use the sounds and grpahics in 2D. The video that published the second half solution to the iteration 1 really helped a lot. It solved my doubts. I couldn't fulfill all criteria's for an A grade. I feel sorry for that but then as my professor Dr.G said, its all about learning. I will learn something in the next video. I am looking forward for my next iteration in the upcoming week. More than learning to do this project, I spent time in learning git pages this week.
 
 
  ## Self-Evaluation
