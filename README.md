@@ -60,5 +60,5 @@ According to the requirements above, It satisfies B grade.
  
  Images are from "Physics Assets Pack". Created by kenney.nl, [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/). Source: https://www.kenney.nl/assets/physics-assets
 
-Projectile launch sound from "freesound". Created by jekkech, [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+Projectile launch sound from "freesound". Created by jekkech, [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/). Source:
 https://freesound.org/people/jeckkech/sounds/391660/
