@@ -1,16 +1,12 @@
-P1-Launchie
+# P1-Launchie
+ 
+ A 2D Physics-Based Game made with Godot by Janardhen Jayavel.
+ Github Pages Link [(Play)]
 
-A 2D Physics-Based Game made with Godot by Janardhen Jayavel.
+# Project Report
 
-Github Pages Link [(Play)]
-
-#Project Report
-
-##Reflection
-
-
-
-##Self-Evaluation
+## Reflection
+ ## Self-Evaluation
 
 [x] D-1: The repository link is submitted to Canvas before the project deadline.
  D-2: The repository contains a README.md file in its top-level directory.
@@ -29,4 +25,9 @@ Github Pages Link [(Play)]
  ⭐ The player has a small inventory of projectiles, and only one can be launched at a time.
  ⭐ The background and ground use 2D graphics.
  ⭐ A HUD shows the current game state such as the score and number of projectiles remaining.
-According to the requirements above, 
+According to the requirements above, It satisfies B grade. 
+
+ ## Third party assets
+ 
+ Images are from "Physics Assets Pack". Created by kenney.nl, 'CC0 1.0 Universal'[https://creativecommons.org/publicdomain/zero/1.0/]. Source: [https://www.kenney.nl/assets/physics-assets]
+
