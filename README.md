@@ -2,7 +2,7 @@
  
  A 2D Physics-Based Game made with Godot by Janardhen Jayavel.
  
- Github Pages Link [(Play)]
+ Github Page Link: Click here to  [Play](https://bsu-cs315.github.io/P1---projectile-launch/)
  
  ## How to Play
  Use left and right arrows to change the angle.
@@ -44,13 +44,13 @@
  
 - [x] B-3: Earn one star.
  
-- [] A-1: Earn three stars.
+- [ ] A-1: Earn three stars.
  
-- []  ⭐ The player has a small inventory of projectiles, and only one can be launched at a time.
+- [ ]  ⭐ The player has a small inventory of projectiles, and only one can be launched at a time.
  
 - [x] ⭐ The background and ground use 2D graphics.
  
-- []  ⭐ A HUD shows the current game state such as the score and number of projectiles remaining.
+- [ ]  ⭐ A HUD shows the current game state such as the score and number of projectiles remaining.
  
 According to the requirements above, It satisfies B grade. 
 
@@ -60,5 +60,5 @@ According to the requirements above, It satisfies B grade.
  
  Images are from "Physics Assets Pack". Created by kenney.nl, [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/). Source: https://www.kenney.nl/assets/physics-assets
 
-Projectile launch sound from "freesound". Created by jekkech, [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/). Source:
+Projectile launch sound is '391660__jeckkech__projectile.wav' from "freesound". Created by jekkech, [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/). Source:
 https://freesound.org/people/jeckkech/sounds/391660/
