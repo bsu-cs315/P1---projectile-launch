@@ -1,0 +1,57 @@
+# Workflow to publish Godot HTML5 games to GitHub Pages
+#
+# This script assumes that the project itself is in a subdirectory "project". This 
+# folder structure frees up the root of the repository to be used for non-project
+# files, such as the README, build folder, or raw assets folder.
+#
+# Make sure your project is configured for Web export
+# to the path `build/web`.
+
+name: 'Publish to GitHub Pages'
+
+env:
+  GODOT_VERSION: 3.2.2 # Remember to manually set image to this version below.
+
+on:
+  workflow_dispatch:
+  push:
+    branches: 
+      - master
+  
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  deploy:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-18.04
+    
+    container:
+      image: barichello/godot-ci:3.2.2
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - name: Checkout
+        # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+        uses: actions/checkout@v2
+        # Runs a set of commands using the runners shell
+      - name: Move HTML5 templates into position
+        run: |
+          mkdir -v -p ~/.local/share/godot/templates
+          mv /root/.local/share/godot/templates/${GODOT_VERSION}.stable ~/.local/share/godot/templates/${GODOT_VERSION}.stable
+      - name: Create staging directory
+        run: mkdir -v -p build/web
+
+   
+      - name: Build
+        run: godot -v --export "HTML5" ../build/web/index.html project/project.godot
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build/web
+          force_orphan: true 
+          user_name: 'github-ci[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: 'Publish to gh-pages'
+   
+
