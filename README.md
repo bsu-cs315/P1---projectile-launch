@@ -1,58 +1,32 @@
-# P1---projectile-launch
-Project 1 - Iteration one
+P1-Launchie
+
 A 2D Physics-Based Game made with Godot by Janardhen Jayavel.
 
-Github page is [P1---projectile-launch](https://bsu-cs315.github.io/P1---projectile-launch/)
+Github Pages Link [(Play)]
 
-# Project Report
-## Reflection
-Completing this iteration one gave me a satisfaction that I finally did it. But, it was really very hard for me to do each and every step. I had difficulties in getting a suitable png for my project. I had difficulties in using git actions and many more. So,I am planning to meet with my professor during office hours this week to get my doubts cleared. I am also scared that this is just the beginning of the semester and how am I gonna perform in upcoming projects. I learnt many things than the first Tutorial project especially using the physics kit and applying Physics motion in the Godot engine  and I strive to give my best in future projects. 
+#Project Report
 
-## Self evaluation
-- [x] D-1: The repository link is submitted to Canvas before the project deadline.
+##Reflection
 
-- [x] D-2: The repository contains, in the top-level directory, a README.md file that includes the project identifier and author's name.
 
-- [x] D-3: The project content is eligible for an ESRB Rating of M or less.
- 
-- [x] C-1: Your repository is well-formed, with an appropriate .gitignore file and no unnecessary files tracked.
 
-- [x] C-2: The repository is tagged using semantic versioning where the major version is zero, the minor version is the iteration number, and the patch version is                  incremented as normal for each change made to the minor version. The link submitted on Canvas is to the relevant release.
+##Self-Evaluation
 
-- [x] C-3: You have a clear legal right to use all incorporated assets, and the licenses for all third-party assets are tracked in the README.md file.
-
-- [x] C-4: The project content is eligible for an ESRB Rating of T or less.
- 
-- [x] C-5: The player can control the angle at which the projectile is fired.
-
-- [x] C-6: The player can fire the projectile.
-
-- [x] C-7: The projectile's flight is affected by gravity using Godot Engine's physics system.
-
-- [x] C-8: There is a “ground” that stops the projectile.
-
-- [x] C-9: There is a non-ground target that the projectile can hit.
- 
-- [x] B-1: The README.md file contains a personal reflection on the iteration as well as the reflections from previous iterations, if any.
-
-- [x] B-2: The README.md file contains a self-assessment.
-
-- [x] B-3: The release is published to GitHub Pages with a link provided in the README.md file.
-
-- [x] B-4: The projectile's firing angle is clamped between 0° (straight forward) and 90° (straight up).
-
-- [x] B-5: Once fired, the projectile is non-interactive.
-
-- [x] A-1: The player can modify the strength of the projectile's firing.
-
-- [x] A-2: There is a visual indicator showing the angle at which the projectile will fire.
-
- - [x] A-3: The projectile's hitting the target is recognized and logged to the console or otherwise indicated.
- 
- This assesment satisfies the requirement of a A grade. I am still unsure that whether I have misunderstood any of the requirements. I hope to get a A or A-
- 
-# Third party assets
- 
- Images I used are from "Physics Assets". Created in 2016 by kenney.nl, CC0 1.0 Universal. Source: https://www.kenney.nl/assets/physics-assets
- 
- 
+[x] D-1: The repository link is submitted to Canvas before the project deadline.
+ D-2: The repository contains a README.md file in its top-level directory.
+ D-3: The project content is eligible for an ESRB Rating of M or less.
+ C-1: Your repository is well-formed, with an appropriate .gitignore file and no unnecessary files tracked.
+ C-2: Your release is tagged using semantic versioning where the major version is zero, the minor version is the iteration number, and the patch version is incremented as usual for each change made to the minor version, and the release name matches the release tag.
+ C-3: You have a clear legal right to use all incorporated assets, and the licenses for all third-party assets are tracked in the README.md file.
+ C-4: The README.md contains instructions for how to play the game or such instructions are incorporated into the game itself.
+ C-5: The project content is eligible for an ESRB Rating of T or less.
+ C-6: The projectile and targets are shown with 2D graphics.
+ C-7: The game plays an appropriate sound effect when the projectile is fired.
+ B-1: The README.md file contains a personal reflection on the iteration and self-evaluation, as defined above.
+ B-2: The playable game is published to GitHub Pages and linked from the README.md file.
+ B-3: Earn one star.
+ A-1: Earn three stars.
+ ⭐ The player has a small inventory of projectiles, and only one can be launched at a time.
+ ⭐ The background and ground use 2D graphics.
+ ⭐ A HUD shows the current game state such as the score and number of projectiles remaining.
+According to the requirements above, 
