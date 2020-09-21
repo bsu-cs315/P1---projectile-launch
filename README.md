@@ -37,7 +37,7 @@
 - [x] B-1: The README.md file contains a personal reflection on the iteration and self-evaluation, as defined above.
 - [x] B-2: The playable game is published to GitHub Pages and linked from the README.md file.
 - [x] B-3: Earn one star.
-- [x] A-1: Earn three stars.
+- [] A-1: Earn three stars.
 - [x] ⭐ When the game is over, the player can interact to take the game back to the title screen, from which the game can be played again.
 - [] ⭐ Use an AnimationPlayer or Tween to add some pop to the user-interface.
 - [] ⭐ The source code complies with our adopted style guide.
