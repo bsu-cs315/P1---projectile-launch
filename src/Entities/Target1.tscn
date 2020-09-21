@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 14.9557, 33.2796 )
+
+[sub_resource type="StreamTexture" id=2]
+flags = 4
+load_path = "res://.import/alien_N.png-28a110ccbb68b4bcf958e23e2f1a3ca1.stex"
+
+[node name="Node2D" type="RigidBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( -0.605591, 0 )
+shape = SubResource( 1 )
+
+[node name="alien_N" type="Sprite" parent="CollisionShape2D"]
+position = Vector2( 0.44083, -23.9157 )
+scale = Vector2( 1.00452, 0.975126 )
+texture = SubResource( 2 )

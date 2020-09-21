@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://assets/visual/Target.png" type="Texture" id=1]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 32.8843
+
+[node name="RigidBody2D" type="RigidBody2D"]
+mode = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( -0.303314, 1.79156 )
+shape = SubResource( 1 )
+
+[node name="Target" type="Sprite" parent="."]
+position = Vector2( -1.79716, 0.486649 )
+texture = ExtResource( 1 )
