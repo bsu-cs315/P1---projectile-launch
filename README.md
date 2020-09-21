@@ -16,7 +16,7 @@
 # Project Report
   
  ## Reflection
- It has been very nice to change between scenes with few lines of code. I felt it hard to do overall. I need to improve the fluency in it. 
+  It has been very nice to change between scenes with few lines of code. I felt it hard to do overall. I need to improve the fluency in it. I was stuck at a point during the scenes but then the video which helped me much faster. I am also excited for the next project. 2D physics is really fun and I hope the rest of the projects are fun and also easy. Github once helped me to get back my project when my laptop ran into a problem and yes, It was a nice simple project to work on
  ## Self-Evaluation
 
 
@@ -37,10 +37,10 @@
 - [x] B-1: The README.md file contains a personal reflection on the iteration and self-evaluation, as defined above.
 - [x] B-2: The playable game is published to GitHub Pages and linked from the README.md file.
 - [x] B-3: Earn one star.
-- [] A-1: Earn three stars.
+- [x] A-1: Earn three stars.
 - [x] ⭐ When the game is over, the player can interact to take the game back to the title screen, from which the game can be played again.
-- [] ⭐ Use an AnimationPlayer or Tween to add some pop to the user-interface.
-- [] ⭐ The source code complies with our adopted style guide.
+- [x] ⭐Use an AnimationPlayer or Tween to add some pop to the user-interface.
+- [x] ⭐ The source code complies with our adopted style guide.
 According to the requirements above, It satisfies B grade. 
 
 
