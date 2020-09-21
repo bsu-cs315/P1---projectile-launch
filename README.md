@@ -41,7 +41,8 @@
 - [x] ⭐ When the game is over, the player can interact to take the game back to the title screen, from which the game can be played again.
 - [x] ⭐Use an AnimationPlayer or Tween to add some pop to the user-interface.
 - [x] ⭐ The source code complies with our adopted style guide.
-According to the requirements above, It satisfies B grade. 
+
+According to the requirements above, It satisfies to earn an A. 
 
 
 
