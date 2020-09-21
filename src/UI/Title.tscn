@@ -1,0 +1,112 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://src/ui/Title.gd" type="Script" id=1]
+[ext_resource path="res://assets/visual/colored_land.png" type="Texture" id=2]
+[ext_resource path="res://assets/visual/4602_A.jpg" type="Texture" id=3]
+[ext_resource path="res://assets/visual/fileuppercase-letter-ypng-y-png-590_600.png" type="Texture" id=4]
+[ext_resource path="res://assets/visual/computer-icons-letter-case-clip-art-letter-p-png-download-1200-letter-p-png-900_900.jpg" type="Texture" id=5]
+[ext_resource path="res://assets/visual/letter_L_PNG29.png" type="Texture" id=6]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 5 ), ExtResource( 6 ), ExtResource( 3 ), ExtResource( 4 ) ],
+"loop": true,
+"name": "idle",
+"speed": 3.0
+} ]
+
+[node name="Title" type="CanvasLayer"]
+script = ExtResource( 1 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchor_left = -0.00414248
+anchor_top = 0.00520384
+anchor_right = -0.00414248
+anchor_bottom = 0.00520384
+margin_left = 3.67997
+margin_top = -2.4127
+margin_right = 913.68
+margin_bottom = 511.588
+color = Color( 0, 0.568627, 0.721569, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="colored_land" type="Sprite" parent="ColorRect"]
+position = Vector2( 455.414, 256.149 )
+scale = Vector2( 0.888658, 0.500373 )
+texture = ExtResource( 2 )
+
+[node name="PlayButton" type="Button" parent="."]
+anchor_left = 0.499244
+anchor_top = 1.0
+anchor_right = 0.499244
+anchor_bottom = 1.0
+margin_left = -84.312
+margin_top = -126.0
+margin_right = 98.688
+margin_bottom = -92.0
+text = "Play"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+anchor_left = -0.0015122
+anchor_top = 0.00068891
+anchor_right = -0.0015122
+anchor_bottom = 0.00068891
+margin_left = 39.2864
+margin_top = 43.3846
+margin_right = 868.286
+margin_bottom = 374.384
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+text = "WELCOME TO PHYSICS GAME
+
+CS 315 
+PROJECT 1 FINAL
+
+
+
+CLICK BELOW TO START PLAYING THE GAME"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="RichTextLabel"]
+margin_left = 507.766
+margin_top = 199.529
+margin_right = 847.766
+margin_bottom = 401.529
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+custom_colors/selection_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_selected = Color( 0.152941, 0.121569, 0.121569, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+text = "USE LEFT AND ARROWS TO CONTROL ANGLE
+
+LOOK THE STRENGTH BAR FOR POWER
+
+USE SPACEBAR TO LAUNCH 
+"
+__meta__ = {
+"_edit_use_anchors_": false,
+"_editor_description_": "USE LEFT AND ARROWS TO CONTROL ANGLE
+
+LOOK THE STRENGTH BAR FOR POWER
+
+USE SPACEBAR TO LAUNCH 
+"
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+root_node = NodePath("../AnimatedSprite")
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+light_mask = 19
+position = Vector2( 55.1218, 460.049 )
+scale = Vector2( 0.0864497, 0.0726892 )
+frames = SubResource( 1 )
+animation = "idle"
+frame = 3
+playing = true
+[connection signal="pressed" from="PlayButton" to="." method="_on_PlayButton_pressed"]
